@@ -1,0 +1,32 @@
+<h1>Livres disponibles</h1>
+
+<div>
+
+    <table>
+        <thead>
+            <th>id</th>
+            <th>Titre du livre</th>
+            <th>Auteur du livre</th>
+            <th>statut</th>
+            <th>Année d'édition</th>
+        </thead>
+        <tbody>
+       
+            <!-- @for (book of Books; track book.id) {
+     -->
+            <tr *ngFor="let book of books ; let i= index">
+                <td>{{i+1}}</td>
+            <td>{{book.title}}</td>
+            <td>{{book.author}}</td>
+            <td>{{book.statut}}</td>
+            <td>{{book.year}}</td>
+          </tr>
+        <!-- } -->
+       
+       
+       
+     </tbody> 
+    </table>
+    
+    
+</div>

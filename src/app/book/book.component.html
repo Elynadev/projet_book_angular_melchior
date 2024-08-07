@@ -1,0 +1,15 @@
+<div>
+
+    <header>
+        <app-book-hearder (passValue)="recupValue($event)"> </app-book-hearder>
+    </header>
+    <main>
+        <app-book-form [affiche]="getChildInfo"> </app-book-form>
+        <app-book-list></app-book-list>
+    </main>
+
+    <footer>
+
+        <app-book-footer></app-book-footer>
+    </footer>
+</div>

@@ -1,0 +1,21 @@
+ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+   padding-top: 5px;
+}
+
+li {
+   
+    list-style: none;
+}
+nav{
+    background-color: hotpink;
+    height: 50px;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 90px;
+}
+ li a {  text-decoration: none;
+    color: aliceblue;
+}
